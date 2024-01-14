@@ -1882,10 +1882,6 @@ button,
   font-size: 33px;
 }
 
-.portfolio__button:hover {
-  opacity: 0.5;
-}
-
 .footer {
   background-color: rgba(38, 12, 38, 0.7);
   padding: 35px 0;
@@ -2141,6 +2137,10 @@ button,
     padding: 0 16px;
   }
 
+  .header {
+    background-image: url("../img/backgrounds/background-mobile.jpg");
+  }
+
   .header-top {
     padding: 15px 0;
     display: -webkit-box;
@@ -2248,10 +2248,6 @@ button,
     background-color: #fea18d;
     -webkit-box-shadow: 0 6px 0 0 #fea18d, 0 12px 0 0 #fea18d;
     box-shadow: 0 6px 0 0 #fea18d, 0 12px 0 0 #fea18d;
-  }
-
-  .nav__toggle:hover {
-    opacity: 0.5;
   }
 
   .nav__item {
